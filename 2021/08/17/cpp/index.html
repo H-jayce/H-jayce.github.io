@@ -178,6 +178,17 @@
                     字
                 </li>
                 
+                    <li id="/2021/08/17/cpp/" class="leancloud_visitors" data-flag-title="cpp">
+                        <i class="fa fa-eye"></i>
+                        <span class="leancloud-visitors-count"> </span> 次阅读
+                    </li>
+                    
+                        <li>
+                            <i class="fa fa-commenting-o"></i>
+                            <span data-xid="/2021/08/17/cpp/" class="waline-comment-count"> </span> 条评论
+                        </li>
+                    
+                
             </ul>
         </header>
         <div class="kratos-post-content">
@@ -255,6 +266,8 @@
         <footer class="kratos-entry-footer clearfix">
             
                 <div class="post-like-donate text-center clearfix" id="post-like-donate">
+                
+                    <a class="donate" href="javascript:;"><i class="fa fa-bitcoin"></i> 打赏</a>
                 
                 
                     <a class="share" href="javascript:;"><i class="fa fa-share-alt"></i> 分享</a>
@@ -353,6 +366,26 @@
             
         </nav>
     
+    
+        <div id="w-comments" class="post-comments"></div>
+<script>
+    var load_comm = () => {
+        const init = () => {
+            new Waline(Object.assign({
+                el: '#w-comments',
+                path: '/2021/08/17/cpp/'
+            }, JSON.parse('{"serverURL":"https://qjq218dp.lc-cn-e1-shared.com","visitor":true}')));
+        }
+        if (typeof Waline == 'undefined') {
+            const src = 'https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js';
+            $.getScript(src, init);
+        } else {
+            init();
+        }
+    };
+</script>
+<noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://waline.js.org/">comments powered by Waline.</a></noscript>
+
     
 </article>
 
@@ -543,6 +576,8 @@
 <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
 <script defer src="/js/kratosr.min.js"></script>
 <script defer src="/js/pjax.min.js"></script>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/layui-src@2.5.5/dist/layui.all.js"></script>
 
 
     <script defer src="/js/kr-dark.min.js"></script>
