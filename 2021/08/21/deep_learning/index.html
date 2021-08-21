@@ -4,7 +4,7 @@
   <!-- 元数据 -->
   <meta charset="utf-8">
   <link rel="icon" href="">
-  <title>cpp | Homeless-jayce</title>
+  <title>deep_learning | Homeless-jayce</title>
   <meta name="author" content="h-jayce" />
   <meta http-equiv="Cache-Control" content="no-transform" />
   <meta http-equiv="Cache-Control" content="no-siteapp" />
@@ -13,20 +13,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="format-detection" content="telphone=no, email=no" />
   
-    <meta name="keywords" content="学习" />
+    <meta name="keywords" content="" />
   
-  <meta name="description" content="1.Python格式化字符12345678$ %%  #输出%$ %s  #字符串$ %d  #有符号整数$ %e  #浮点数字（科学计数法）$ %f  #浮点数字（用小数点符号）$ %g  #浮点数字（根据值的大小采用%e或%f）$ %02d  #数字转成两位整形，缺位补0$​ %06.2f  #保留宽度为6的2位小数浮点型 More info: 格式化输出 2.markdown中公式编辑教程">
+  <meta name="description" content="深度学习《深度学习》- [美]伊恩-古德费洛 《动手学深度学习》 $\vec{a}$  向量$\overline{a}$ 平均值$\widehat{a}$ (线性回归，直线方程) y尖$\widetilde{a}$ 颚化符号  等价无穷小$\dot{a}$   一阶导数$\ddot{a}$  二阶导数 $\cfrac 1N $  分数   准确率accuracy : 做出正确预测的数量与预测的数量">
 <meta property="og:type" content="article">
-<meta property="og:title" content="cpp">
-<meta property="og:url" content="http://example.com/2021/08/17/cpp/index.html">
+<meta property="og:title" content="deep_learning">
+<meta property="og:url" content="http://example.com/2021/08/21/deep_learning/index.html">
 <meta property="og:site_name" content="Homeless-jayce">
-<meta property="og:description" content="1.Python格式化字符12345678$ %%  #输出%$ %s  #字符串$ %d  #有符号整数$ %e  #浮点数字（科学计数法）$ %f  #浮点数字（用小数点符号）$ %g  #浮点数字（根据值的大小采用%e或%f）$ %02d  #数字转成两位整形，缺位补0$​ %06.2f  #保留宽度为6的2位小数浮点型 More info: 格式化输出 2.markdown中公式编辑教程">
+<meta property="og:description" content="深度学习《深度学习》- [美]伊恩-古德费洛 《动手学深度学习》 $\vec{a}$  向量$\overline{a}$ 平均值$\widehat{a}$ (线性回归，直线方程) y尖$\widetilde{a}$ 颚化符号  等价无穷小$\dot{a}$   一阶导数$\ddot{a}$  二阶导数 $\cfrac 1N $  分数   准确率accuracy : 做出正确预测的数量与预测的数量">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/null">
-<meta property="article:published_time" content="2021-08-16T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-08-17T07:38:13.620Z">
+<meta property="article:published_time" content="2021-08-20T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-08-21T08:13:06.691Z">
 <meta property="article:author" content="h-jayce">
-<meta property="article:tag" content="学习">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/null">
 <meta name="twitter:site" content="@null">
@@ -163,29 +162,29 @@
     <div class="kratos-hentry kratos-post-inner clearfix">
         <header class="kratos-entry-header">
             
-                <h1 class="kratos-entry-title text-center">cpp</h1>
+                <h1 class="kratos-entry-title text-center">deep_learning</h1>
             
             
             <ul class="kratos-post-meta text-center">
-                <li><i class="fa fa-calendar"></i> 2021-08-17</li>
+                <li><i class="fa fa-calendar"></i> 2021-08-21</li>
                 <li><i class="fa fa-user"></i> 作者 h-jayce</li>
                 <li>
                     <i class="fa fa-edit"></i> 
                     
                     
-                        1130
+                        ~3.22K
                     
                     字
                 </li>
                 
-                    <li id="/2021/08/17/cpp/" class="leancloud_visitors" data-flag-title="cpp">
+                    <li id="/2021/08/21/deep_learning/" class="leancloud_visitors" data-flag-title="deep_learning">
                         <i class="fa fa-eye"></i>
                         <span class="leancloud-visitors-count"> </span> 次阅读
                     </li>
                     
                         <li>
                             <i class="fa fa-commenting-o"></i>
-                            <span data-xid="/2021/08/17/cpp/" class="waline-comment-count"> </span> 条评论
+                            <span data-xid="/2021/08/21/deep_learning/" class="waline-comment-count"> </span> 条评论
                         </li>
                     
                 
@@ -193,67 +192,131 @@
         </header>
         <div class="kratos-post-content">
             <div id="expire-alert" class="alert alert-warning hidden" role="alert">
-                本文最后编辑于 <time datetime="1629185893620"></time> 前，其中的内容可能需要更新。
+                本文最后编辑于 <time datetime="1629533586691"></time> 前，其中的内容可能需要更新。
             </div>
             
                 <div class="kratos-post-inner-toc">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-Python%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6"><span class="toc-number">1.</span> <span class="toc-text">1.Python格式化字符</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-%E5%9F%BA%E7%A1%80"><span class="toc-number">1.1.</span> <span class="toc-text">3.1 基础</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-%E6%A0%B8%E5%BF%83"><span class="toc-number">1.2.</span> <span class="toc-text">3.2 核心</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-1-%E6%95%99%E6%9D%90%EF%BC%9AC-%E7%BC%96%E8%BE%91%E6%80%9D%E6%83%B3%E3%80%81C-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80%E3%80%81%E8%BD%AF%E4%BB%B6%E8%B0%83%E8%AF%95%E7%9A%84%E8%89%BA%E6%9C%AF%E3%80%82"><span class="toc-number">1.3.</span> <span class="toc-text">4.1 教材：C++编辑思想、C++程序设计语言、软件调试的艺术。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-2-VirtualBox%E5%AF%BC%E5%85%A5%E9%95%9C%E5%83%8F%E6%96%87%E4%BB%B6"><span class="toc-number">1.4.</span> <span class="toc-text">4.2 VirtualBox导入镜像文件</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0"><span class="toc-number">1.</span> <span class="toc-text">深度学习</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9CCNN"><span class="toc-number">2.</span> <span class="toc-text">卷积神经网络CNN</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9CRNN"><span class="toc-number">3.</span> <span class="toc-text">循环神经网络RNN</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#BaseRNN-Cell"><span class="toc-number">3.1.</span> <span class="toc-text">BaseRNN_Cell</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%97%B6%E9%97%B4%E7%BB%B4%E5%BA%A6%E9%9D%99%E6%80%81%E5%B1%95%E5%BC%80%EF%BC%9AStatic-RNN"><span class="toc-number">3.2.</span> <span class="toc-text">时间维度静态展开：Static_RNN</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%97%B6%E9%97%B4%E7%BB%B4%E5%BA%A6%E5%8A%A8%E6%80%81%E5%B1%95%E5%BC%80%EF%BC%9Adynamic%E2%80%94%E2%80%94rnn"><span class="toc-number">3.3.</span> <span class="toc-text">时间维度动态展开：dynamic——rnn</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BB%98%E5%88%B6%E6%9B%B2%E7%BA%BF"><span class="toc-number">3.3.1.</span> <span class="toc-text">绘制曲线</span></a></li></ol></li></ol></li></ol>
                 </div>
             
             <hr />
-            <h1 id="1-Python格式化字符"><a href="#1-Python格式化字符" class="headerlink" title="1.Python格式化字符"></a>1.Python格式化字符</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ %%  #输出%</span><br><span class="line">$ %s  #字符串</span><br><span class="line">$ %d  #有符号整数</span><br><span class="line">$ %e  #浮点数字（科学计数法）</span><br><span class="line">$ %f  #浮点数字（用小数点符号）</span><br><span class="line">$ %g  #浮点数字（根据值的大小采用%e或%f）</span><br><span class="line">$ %02d  #数字转成两位整形，缺位补0</span><br><span class="line">$​ %06.2f  #保留宽度为6的2位小数浮点型</span><br></pre></td></tr></table></figure>
-<p>More info: 格式化输出</p>
-<p>2.markdown中公式编辑教程</p>
-<hr>
-<p>编程——计算——建模——抽象——设定范围。</p>
-<p>编程步骤：输入——处理——输出。</p>
-<h2 id="3-1-基础"><a href="#3-1-基础" class="headerlink" title="3.1 基础"></a>3.1 基础</h2><p>如何编译，调试，环境设置;</p>
-<p>C++语言，语法，语义基础。</p>
-<h2 id="3-2-核心"><a href="#3-2-核心" class="headerlink" title="3.2 核心"></a>3.2 核心</h2><p>面向对象思想;<br>封装，继承，多态;<br>模板，STL;<br>IO，Lambda。</p>
-<h2 id="4-1-教材：C-编辑思想、C-程序设计语言、软件调试的艺术。"><a href="#4-1-教材：C-编辑思想、C-程序设计语言、软件调试的艺术。" class="headerlink" title="4.1 教材：C++编辑思想、C++程序设计语言、软件调试的艺术。"></a>4.1 教材：C++编辑思想、C++程序设计语言、软件调试的艺术。</h2><h2 id="4-2-VirtualBox导入镜像文件"><a href="#4-2-VirtualBox导入镜像文件" class="headerlink" title="4.2 VirtualBox导入镜像文件"></a>4.2 VirtualBox导入镜像文件</h2><ol>
-<li>创建文本：touch test.cpp</li>
-</ol>
-<p>编译链接：<code>g++ test.cpp</code></p>
-<p>显示当前目录全部内容：<code>ls -lart</code>,直接使用 <code>ll</code></p>
-<ol>
-<li><p>C++标识符<br>C++是区分大小写的编程语言</p>
+            <h2 id="深度学习"><a href="#深度学习" class="headerlink" title="深度学习"></a>深度学习</h2><p>《深度学习》- [美]伊恩-古德费洛</p>
+<p>《动手学深度学习》</p>
+<p>$\vec{a}$  向量<br>$\overline{a}$ 平均值<br>$\widehat{a}$ (线性回归，直线方程) y尖<br>$\widetilde{a}$ 颚化符号  等价无穷小<br>$\dot{a}$   一阶导数<br>$\ddot{a}$  二阶导数</p>
+<p>$\cfrac 1N $  分数</p>
+<ul>
+<li><ul>
+<li>准确率accuracy : 做出正确预测的数量与预测的数量之比。</li>
+</ul>
+<script type="math/tex; mode=display">
+accuracy(\widehat{y},y)=
+\begin{cases}
+1, &if\ \widehat{y}_i=y_i \\
+0, &if\  其他
+\end{cases}</script></li>
+<li><ul>
+<li>对于包含N个元素的完整数据集，取所有样本的平均精度：<script type="math/tex; mode=display">
+accuracy(D)=\cfrac 1N \sum_{i=1}^N accuracy(\widehat{y}_i,y_i)</script></li>
+</ul>
 </li>
-<li><p>C/C++基本编译和执行过程<br>预处理——头文件（.hpp）和宏文件展开——生成(.i)文件<br>编译——词法分析，优化，代码生成——（.asm）文件，汇编代码——生成(.o/.obj)文件<br>链接——将（.o）文件和动态库文件（.so）链接——生成可执行文件<br>执行可执行文件<br>预处理——cpp test.cpp&gt;test.i</p>
+<li><p>分类：使用混淆矩阵</p>
 </li>
-</ol>
-<p>编译——<code>g++ -g -S test.i</code></p>
-<p>汇编—— <code>as -o test.o test.s</code></p>
-<p><code>gcc -g -c test.c; objdump -d -M intel -S test.o</code></p>
-<p>链接——<code>Id -o myTest test.o</code> …[其他链接选项]</p>
-<ol>
-<li>C/C++核心调试技术：GDB<br>4.1 直接调试：gdb a.out</li>
-</ol>
-<p><code>break main</code></p>
-<p><code>run</code></p>
-<p>​      4.2 通过界面调试</p>
-<p><code>gdb test --tui</code></p>
-<p><code>next</code></p>
-<ol>
-<li>对象，类型，变量和值<br>对象</li>
-</ol>
-<p>类型</p>
-<p>变量</p>
-<p>值</p>
-<p>1.基本内置类型：char,unsigned char,signed char</p>
-<p> int,</p>
-<p> shortint,</p>
-<p> longint,</p>
-<p> float,double,long double</p>
-<p>2.自定义类型：</p>
-<ol>
-<li>C++指针类型<br>指针类型的变量，其值为另一个变量的地址</li>
-</ol>
-<p>int *ip; //一个整形的指针</p>
-<p>float *fp; //一个浮点型的指针</p>
-<p>int *mp; //一个整形指针的指针</p>
-<p>int i = 42;int是整数类型，i是变量，42是值</p>
-<p>int<em> p = &i;int</em>是指针类型（指向整数），</p>
-<p>p是变量，&amp;i返回一个地址用作值</p>
+<li><p>平均绝对误差MAE：原始值和预测值之间的绝对差的平均值。</p>
+<script type="math/tex; mode=display">
+MAE=\cfrac 1N \sum^N_{i=1} |y_i-\widehat{y}_i|</script><p>没有上限，下限为0,希望其值接近0 。</p>
+</li>
+<li><p>均方误差MSE ：原始值与预测值之差的平方的平均值。</p>
+<script type="math/tex; mode=display">
+MSE = \cfrac 1N \sum^N_{i=1}(y_i-\widehat{y}_i)^2</script></li>
+</ul>
+<p>++++</p>
+<ul>
+<li>防止过拟合数据：正则化技术（对参数的L2惩罚、dropout、批量归一化、数据扩充等。）</li>
+</ul>
+<p><img src="https://pic2.zhimg.com/80/v2-fd1fcf63ade35e4f2e2753eb60364ca1_1440w.jpg" alt="img"></p>
+<p><img src="https://www.zhihu.com/equation?tex=f%28x%29%3Drelu%28x%29%3Dmax%28x%2C0%29" alt="[公式]"></p>
+<p><img src="https://pic1.zhimg.com/80/v2-b1d2be1e881b460d090b0aef9e996458_1440w.jpg" alt="img"></p>
+<p><img src="https://www.zhihu.com/equation?tex=f%28x%29%3Dsoftplus%28x%29%3Dlog%28e%5E%7Bx%7D%2B1%29" alt="[公式]"></p>
+<p><img src="https://pic1.zhimg.com/80/v2-1e08ab5f7c9778048fb653192ec56490_1440w.jpg" alt="img"></p>
+<p><img src="https://www.zhihu.com/equation?tex=f%28x%29+%3D+ThresholdedReLU%28x%29%3D++%5Cbegin%7Bcases%7D++++0+%26+%5Ctext%7Bif+%7D+x+%5Cleq+%5Ctheta+%5C%5C+++++++x+%26+%5Ctext%7Bif+%7D+x%3E+%5Ctheta+%5Cend%7Bcases%7D%5C%5C" alt="[公式]"></p>
+<p><img src="https://pic4.zhimg.com/80/v2-efbcd7e97c9ad1aa790eb7de97ef6ecf_1440w.jpg" alt="img"></p>
+<p><img src="https://www.zhihu.com/equation?tex=f%28x%29%3Dsoftmax%28x_%7Bi%7D%29%3D%5Cfrac%7Be%5E%7Bx_%7Bi%7D%7D%7D%7B%5Csum_%7Bj%3D0%7D%5E%7Bn%7D%7Bx_%7Bj%7D%7D%7D" alt="[公式]"></p>
+<p>+++++</p>
+<ul>
+<li>损失函数：定义模型输出和实际数据之间的的关系</li>
+</ul>
+<script type="math/tex; mode=display">
+L = \cfrac 1k \sum^k_{i=1} ||\widehat{y}_i-y_i||_2</script><p>损失函数的最小化是通过对模型的参数值进行小的迭代调整来实现的。</p>
+<p>+++</p>
+<ul>
+<li>优化：</li>
+<li><ul>
+<li>梯度下降法</li>
+<li>梯度下降优化算法</li>
+<li>反向传播和自动微分</li>
+</ul>
+</li>
+</ul>
+<p>+++</p>
+<h2 id="卷积神经网络CNN"><a href="#卷积神经网络CNN" class="headerlink" title="卷积神经网络CNN"></a>卷积神经网络CNN</h2><p>是现代计算机视觉、语音识别甚至自然语言处理应用的基本构件。</p>
+<p>很容易地扩展到具有很大宽度和高度的图像。</p>
+<ul>
+<li>卷积核(kernel) ; 输入尺寸(input) ; 步长(stride) ; 填充(padding)</li>
+</ul>
+<p><strong>输出尺寸=(输入尺寸-filter尺寸+2*padding)/stride+1</strong><br>宽和高都是这么计算的；</p>
+<p>输入图片大小为200×200，依次经过一层卷积（kernel size 5×5，padding 1，stride 2），pooling（kernel size 3×3，padding 0，stride 1），又一层卷积（kernel size 3×3，padding 1，stride 1）之后，输出特征图大小为：97</p>
+<p><strong>计算尺寸不被整除只在GoogLeNet中遇到过。卷积向下取整，池化向上取整。</strong><br>（200-5+2<em>1）/2+1 为99.5，取99<br>（99-3）/1+1 为97<br>（97-3+2</em>1）/1+1 为97</p>
+<p>常见的：<br>stride为1,kernel为 3 ,padding为1 卷积前后尺寸不变<br>stride为1,kernel为 5 ,padding为2 卷积前后尺寸不变</p>
+<p>+++++</p>
+<h2 id="循环神经网络RNN"><a href="#循环神经网络RNN" class="headerlink" title="循环神经网络RNN"></a>循环神经网络RNN</h2><p>可以扩展到更长的序列，是一类用于处理序列数据的神经网络。</p>
+<ul>
+<li>长短期记忆LSTM</li>
+</ul>
+<p>LSTMs的输入必须是三维的（三维的结构是[样本批大小，滑窗大小，特征数量]</p>
+<p>输出为[批量大小，滑窗大小]</p>
+<h3 id="BaseRNN-Cell"><a href="#BaseRNN-Cell" class="headerlink" title="BaseRNN_Cell"></a>BaseRNN_Cell</h3><p>state_size(隐藏层的大小)，output_size(输出的大小)，输出大小一般等于最后一层RNN的state_size.</p>
+<p>如：输入数据(batch_size, input_size),那么计算时得到的隐藏层状态就是(batch_size, state_size),输出层就是(batch_size, output_size) = (batch_size, 最后一层state_size).</p>
+<h3 id="时间维度静态展开：Static-RNN"><a href="#时间维度静态展开：Static-RNN" class="headerlink" title="时间维度静态展开：Static_RNN"></a>时间维度静态展开：Static_RNN</h3><h3 id="时间维度动态展开：dynamic——rnn"><a href="#时间维度动态展开：dynamic——rnn" class="headerlink" title="时间维度动态展开：dynamic——rnn"></a>时间维度动态展开：dynamic——rnn</h3><p>输入数据的格式为(batch_size, time_steps, input_size)</p>
+<ul>
+<li>batch_size: 表示batch的大小，即一个batch中序列的个数;</li>
+<li>time_steps: 表示序列本身的长度，长度为10的句子对应的time_steps就等于10;</li>
+<li>input_size: 表示输入数据单个序列单个时间维度上固有的长度。</li>
+</ul>
+<p>+++</p>
+<p>Keras中主要的模型是Sequential模型，Sequential模型是一系列网络层按顺序构成的栈。</p>
+<p><code>from keras.model import sequential</code></p>
+<p><code>model = sequential()</code></p>
+<p><code># 将一些网络层通过.add()堆叠起来，就构成了一个模型：</code></p>
+<p><code>from keras.layers import Dense, Activation</code></p>
+<p><code>model.add(Dense(output_dim=64, input_dim=100))</code></p>
+<p><code>model.add(Activation(&quot;relu&quot;))</code></p>
+<p><code>model.add(Dense(output_dim=10))</code></p>
+<p><code>model.add(Activation(&quot;softmax&quot;))</code></p>
+<p><code># 完成模型的搭建后，需要使用compile()方法来编辑模型：</code></p>
+<p><code>model.compile(loss=&#39;categorical_crossentropy&#39;, optimizer=&#39;sgd&#39;, metrics=[&#39;accuracy&#39;])</code></p>
+<p><code># 完成模型编译后，我们在训练数据上按batch进行一定次数的迭代训练，以拟合网络：</code></p>
+<p><code>model.fix(x_train, y_train, nb_epoch=5, batch_size=32)</code></p>
+<p><code>loss_and_metrics = model.evaluate(x_test, y_test, batch_size=32) # 评估</code></p>
+<p><code>pre = model.predict_proba(x_test, batch_size=32) # 预测</code></p>
+<ul>
+<li>Flatten层，用来将输入“压平”，即把多维的输入一维化，常用在从卷积层到全连接层的过渡。</li>
+<li>Embedding层，嵌入层，</li>
+</ul>
+<p>+++</p>
+<h4 id="绘制曲线"><a href="#绘制曲线" class="headerlink" title="绘制曲线"></a>绘制曲线</h4><p><code>acc = history.history[&#39;acc&#39;]</code></p>
+<p><code>val_acc = history.history[&#39;val_acc&#39;]</code></p>
+<p><code>loss = history.history[&#39;loss&#39;]</code></p>
+<p><code>val_loss = history.history[&#39;val_loss&#39;]</code></p>
+<p><code>epochs = range(1, len(acc)+1)</code></p>
+<p><code>plt.plot(epochs,acc,&#39;bo&#39;,label=&#39;Training acc&#39;)</code></p>
+<p><code>plt.plot(epochs,val_acc,&#39;b&#39;,label=&#39;Validation acc&#39;)</code></p>
+<p><code>plt.title(&#39;Training and validation accuracy&#39;)</code></p>
+<p><code>plt.legend()</code></p>
+<p><code>plt.figure()</code></p>
+<p><code>plt.plot(epochs,loss,&#39;bo&#39;,label=&#39;Training loss&#39;)</code></p>
+<p><code>plt.plot(epochs,val_loss,&#39;b&#39;,label=&#39;Validation loss&#39;)</code></p>
+<p><code>plt.title(&#39;Training and validation loss&#39;)</code></p>
+<p><code>plt.legend()</code></p>
 
         </div>
         
@@ -309,7 +372,7 @@
     <script type="text/javascript">
         $(()=>{
             new QRCode("wechat-qr", {
-                text: "http://example.com/2021/08/17/cpp/",
+                text: "http://example.com/2021/08/21/deep_learning/",
                 width: 150,
                 height: 150,
                 correctLevel : QRCode.CorrectLevel.H
@@ -321,9 +384,11 @@
             const qzoneBase     = "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?";
             const facebookBase  = "https://www.facebook.com/sharer/sharer.php?";
             const twitterBase   = "https://twitter.com/intent/tweet?";
-            const hostUrl       = "http://example.com/2021/08/17/cpp/";
-            const title         = "「cpp」";
-            const excerpt       = `1.Python格式化字符12345678$ %%  #输出%$ %s  #字符串$ %d  #有符号整数$ %e  #浮点数字（科学计数法）$ %f  #浮点数字（用小数点符号）$ %g  #浮点数字（根据值的大小采用%e或%f）$...`;
+            const hostUrl       = "http://example.com/2021/08/21/deep_learning/";
+            const title         = "「deep_learning」";
+            const excerpt       = `深度学习《深度学习》- [美]伊恩-古德费洛
+《动手学深度学习》
+$\vec{a}$  向量$\overline{a}$ 平均值$\widehat{a}$ (线性回归，直线方程) y尖$\widetilde{a}$ 颚化符号  等价无...`;
             let _URL;
             switch (dest) {
                 case "qq"       : _URL = qqBase+"url="+hostUrl+"&title="+title+"&desc=&summary="+excerpt+"&site=cxpy";     break;
@@ -342,10 +407,10 @@
             <div class="footer-tag clearfix">
                 <div class="pull-left">
                 <i class="fa fa-tags"></i>
-                    <a class="tag-none-link" href="/tags/%E5%AD%A6%E4%B9%A0/" rel="tag">学习</a>
+                    
                 </div>
                 <div class="pull-date">
-                <span>最后编辑：2021-08-17</span>
+                <span>最后编辑：2021-08-21</span>
                 </div>
             </div>
         </footer>
@@ -353,9 +418,13 @@
     
         <nav class="navigation post-navigation clearfix" role="navigation">
             
+            <div class="nav-previous clearfix">
+                <a title=" 开发笔记_1" href="/2021/08/18/Genvi_KaiFa/">&lt; 上一篇</a>
+            </div>
+            
             
             <div class="nav-next clearfix">
-                <a title=" Pytorch_GPU" href="/2021/08/17/Pytorch_GPU/">下一篇 &gt;</a>
+                <a title=" loss_function" href="/2021/08/21/Loss_function/">下一篇 &gt;</a>
             </div>
             
         </nav>
@@ -367,7 +436,7 @@
         const init = () => {
             new Waline(Object.assign({
                 el: '#w-comments',
-                path: '/2021/08/17/cpp/'
+                path: '/2021/08/21/deep_learning/'
             }, JSON.parse('{"serverURL":"https://qjq218dp.lc-cn-e1-shared.com","visitor":true}')));
         }
         if (typeof Waline == 'undefined') {
@@ -418,7 +487,7 @@
         <span class="toc-progress-bar"></span>
     </h4>
     <div class="textwidget">
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-Python%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6"><span class="toc-text">1.Python格式化字符</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1-%E5%9F%BA%E7%A1%80"><span class="toc-text">3.1 基础</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2-%E6%A0%B8%E5%BF%83"><span class="toc-text">3.2 核心</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-1-%E6%95%99%E6%9D%90%EF%BC%9AC-%E7%BC%96%E8%BE%91%E6%80%9D%E6%83%B3%E3%80%81C-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80%E3%80%81%E8%BD%AF%E4%BB%B6%E8%B0%83%E8%AF%95%E7%9A%84%E8%89%BA%E6%9C%AF%E3%80%82"><span class="toc-text">4.1 教材：C++编辑思想、C++程序设计语言、软件调试的艺术。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-2-VirtualBox%E5%AF%BC%E5%85%A5%E9%95%9C%E5%83%8F%E6%96%87%E4%BB%B6"><span class="toc-text">4.2 VirtualBox导入镜像文件</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0"><span class="toc-text">深度学习</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9CCNN"><span class="toc-text">卷积神经网络CNN</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9CRNN"><span class="toc-text">循环神经网络RNN</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#BaseRNN-Cell"><span class="toc-text">BaseRNN_Cell</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%97%B6%E9%97%B4%E7%BB%B4%E5%BA%A6%E9%9D%99%E6%80%81%E5%B1%95%E5%BC%80%EF%BC%9AStatic-RNN"><span class="toc-text">时间维度静态展开：Static_RNN</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%97%B6%E9%97%B4%E7%BB%B4%E5%BA%A6%E5%8A%A8%E6%80%81%E5%B1%95%E5%BC%80%EF%BC%9Adynamic%E2%80%94%E2%80%94rnn"><span class="toc-text">时间维度动态展开：dynamic——rnn</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BB%98%E5%88%B6%E6%9B%B2%E7%BA%BF"><span class="toc-text">绘制曲线</span></a></li></ol></li></ol></li></ol>
     </div>
 </aside>
                 
